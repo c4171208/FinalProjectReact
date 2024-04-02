@@ -1,0 +1,19 @@
+.containers-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+
+}
+
+.container {
+  flex: 1;
+  margin-right: 20px;
+  /* כאן ניתן להגדיר את המרווח ביניהם */
+  border-right: solid gray 3px;
+
+}
+
+#summery {
+  background-color: #faf8f6;
+
+}

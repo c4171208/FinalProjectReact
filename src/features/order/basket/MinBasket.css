@@ -1,0 +1,24 @@
+h4 {
+    padding: 5px;
+}
+
+.buttom {
+    z-index: 100;
+    top: auto;
+    /* Remove top positioning */
+    bottom: 0;
+    position: sticky;
+
+    background-color: white;
+    padding: 10px;
+    border-top: 2px solid rgb(27, 27, 27);
+
+}
+
+.drawer-content {
+    /* flex-grow: 1; */
+    overflow-y: auto;
+    /* Allow vertical scrolling */
+    overflow-x: hidden;
+
+}

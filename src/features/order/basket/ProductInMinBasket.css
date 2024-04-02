@@ -1,0 +1,31 @@
+.box img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.itemInMinBasket {
+
+    display: inline-flex
+}
+
+.box {
+
+   
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.all-item {
+    font-weight: 100;
+    margin-left: 2px;
+    border-bottom: 0.5px solid gray;
+    font-size: 18px;
+}
+
+.blod {
+    font-weight: bold;
+    color: #2c2c2c;
+
+}

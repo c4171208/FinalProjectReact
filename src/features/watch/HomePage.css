@@ -1,0 +1,15 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head div {
+    width: 45vw;
+    height: 40vh;
+}
+
+body {
+    overflow-x: hidden;
+
+}

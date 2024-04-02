@@ -1,0 +1,17 @@
+.link {
+    text-decoration: none;
+    color: #000;
+}
+.link:hover {
+    color: #cb1021;
+}
+.link:visited {
+
+    color: #111111;
+}
+ .watchItem{
+    width: 40vw; 
+    height: 80vh;
+    margin-bottom: 2%;
+    
+}

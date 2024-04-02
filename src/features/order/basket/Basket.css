@@ -1,0 +1,71 @@
+.all-container {
+    flex-direction: row;
+    display: flex;
+    overflow-x: hidden;
+}
+
+#summary {
+    margin: 5% 0 0 5%;
+    background-color: #faf8f6;
+    width: 23vw;
+    height: 35vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    max-width: 35vw;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.section {
+    list-style: none;
+    max-width: 58vw;
+    border-color: solid 7px rgb(67, 68, 68);
+    ;
+
+}
+
+.end {
+    border-top: solid 1px rgb(68, 67, 67);
+    font-size: 22px;
+}
+
+.start {
+    border-bottom: solid 1px rgb(68, 67, 67);
+    font-size: 22px;
+}
+
+.back-button {
+    background: none;
+    /* מסיר את הרקע */
+    border: none;
+    /* מסיר את גבול הכפתור */
+    color: #000;
+    /* צבע טקסט רגיל */
+    font-size: 16px;
+    /* גודל גופן */
+    font-weight: bold;
+    /* עובי גופן */
+    cursor: pointer;
+    /* מצביע יד בעת ריחוף */
+    transition: all 0.3s ease-in-out;
+    margin: 0 0 0 5%;
+
+    &:hover {
+        color: #cb1021;
+        /* צבע טקסט בעת ריחוף */
+        border-bottom: 2px solid #cb1021;
+        /* פס אדום מתחת לטקסט */
+    }
+
+
+}
+
+#title {
+    margin: 0 0 1% 5%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif
+}

@@ -1,0 +1,58 @@
+ .watchDetails {
+
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(192, 191, 191);
+
+ }
+
+ .all {
+    overflow: auto;
+    /* גלגלת כאשר יש יותר מהמרחב הזמין */
+    max-height: 100vh;
+    /* מגבלה את הגובה המרבי של ה-DIV לגובה החלון */
+    background-color: rgb(255, 255, 255);
+    margin: 8%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .section {
+    margin: 5%;
+ }
+
+ #details {
+    border-left: solid gray 2px;
+    padding: 3%;
+ }
+
+ .back-button {
+    background: none;
+    /* מסיר את הרקע */
+    border: none;
+    /* מסיר את גבול הכפתור */
+    color: #000;
+    /* צבע טקסט רגיל */
+    font-size: 16px;
+    /* גודל גופן */
+    font-weight: bold;
+    /* עובי גופן */
+    cursor: pointer;
+    /* מצביע יד בעת ריחוף */
+    transition: all 0.3s ease-in-out;
+    /* מעבר חלק */
+
+    &:hover {
+       color: red;
+       /* צבע טקסט בעת ריחוף */
+       border-bottom: 2px solid red;
+       /* פס אדום מתחת לטקסט */
+    }
+
+
+ }

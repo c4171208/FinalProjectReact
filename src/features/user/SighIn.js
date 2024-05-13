@@ -3,7 +3,7 @@ import { useForm, Controller } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import Joi from "joi";
 import { userIn } from "./userSlice";
-import Button from "@mui/material/Button"; // Imported Button component from Material-UI
+import Button from "@mui/material/Button";
 import React from "react";
 import TextField from "@mui/material/TextField";
 import { Typography, Container } from "@mui/material";
@@ -13,7 +13,6 @@ import { useNavigate } from "react-router-dom";
 // Defined Joi schema for form validation
 const schema = Joi.object({
   name: Joi.string().min(3).max(30).required(),
-  // password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,15}$')).required(),
   password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,15}$')).required(),
   tz: Joi.string().min(9).pattern(/^[0-9]{9}$/).required(),
   email: Joi.string().email({ tlds: false }).required(),
@@ -119,7 +118,7 @@ const SighIn = () => {
               <TextField
                 {...field}
                 label="password*"
-                // type="password"
+                type="password"
                 variant="outlined"
                 margin="normal"
                 fullWidth

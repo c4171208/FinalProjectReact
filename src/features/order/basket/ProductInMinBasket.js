@@ -13,7 +13,7 @@ const ProductInMinBasket = ({ product }) => {
                 <br />
                 <br />
                 <br />
-                <span className="blod">item#: </span>{product.model}3333333333
+                <span className="blod">item#: </span>{product.model}
                 <br />
                 <br />
                 <span className="blod">Qty: </span>{product.count}

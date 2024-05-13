@@ -49,7 +49,7 @@ const ProductInBasket = ({ product }) => {
           {'$' + Number((product.price) * (product.count)).toLocaleString('en')}
         </div>
 
-       
+
 
         <div className="box1" id="close">
           <button onClick={() => dispatch(deleteFromBasket(product))} >  <IoCloseOutline size={"3em"} /></button>

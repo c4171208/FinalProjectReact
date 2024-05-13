@@ -11,10 +11,7 @@ import './ListWatches.css'
 
 const ListWatches = () => {
 
-    let currentUser1 = useSelector((state) => state.user.currentUser);
     let isAdmin1 = useSelector((state) => state.user.isAdmin);
-    let { category } = useParams();
-    // let [prevWatches, setPrevWatches] = useState([]);
 
     let [watches, setWatches] = useState([]);
     let [page, setPage] = useState(1); // סטייט שמקבל את מספר העמוד הנוכחי

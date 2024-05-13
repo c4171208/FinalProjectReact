@@ -13,7 +13,7 @@ import './Basket.css';
 
 const Basket = () => {
 
-    const basket = useSelector((state) => state.basket.basketArr); 
+    const basket = useSelector((state) => state.basket.basketArr);
 
     const currentUser1 = useSelector((state) => state.user.currentUser);
     const navigate = useNavigate();

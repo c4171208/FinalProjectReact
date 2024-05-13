@@ -105,7 +105,7 @@ const Login = () => {
               <TextField
                 {...field}
                 label="password*"
-                // type="password"
+                type="password"
                 variant="outlined"
                 margin="normal"
                 fullWidth
